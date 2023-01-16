@@ -44,7 +44,7 @@ try:
     streamlit.dataframe(fruityvice_normalized)
     streamlit.write('The user entered ', fruit_choice)
     
- except URLError as e:
+except URLError as e:
   streamlit.error()
   
 # import requests
